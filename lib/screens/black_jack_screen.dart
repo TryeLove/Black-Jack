@@ -190,7 +190,7 @@ class _BlackJackScreenState extends State<BlackJackScreen> {
                           height: 200,
                           child: GridView.builder(
                               gridDelegate:
-                                  SliverGridDelegateWithFixedCrossAxisCount(
+                                  const SliverGridDelegateWithFixedCrossAxisCount(
                                       crossAxisCount: 3,
                                   ),
                               itemCount: dealersCards.length,
